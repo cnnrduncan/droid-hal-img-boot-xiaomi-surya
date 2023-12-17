@@ -7,5 +7,8 @@
 %define display_brightness_path /sys/class/leds/lcd-backlight/max_brightness
 %define display_brightness 255
 
+Provides: droid-hal-surya-devel
+Obsoletes: droid-hal-surya-devel
+
 %include initrd/droid-hal-device-img-boot.inc
 
